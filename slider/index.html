@@ -11,18 +11,26 @@
         <div class="header"></div>
         <div class="slider">
             <div class="slider--controls">
-                <div class="slider--control">Voltar</div>
-                <div class="slider--control">Próxima</div>
+                <div class="slider--control" onclick="goPrev()"><p class="go">PREV</p></div>
+                <div class="slider--control" onclick="goNext()"><p class="go">NEXT</p></div>
             </div>
-            <div class="slider--width" style="width: calc(100vw * 3);">
-                <div class="slider--item" style="background-image: url('images/1.jpg');"></div>
-                <div class="slider--item" style="background-image: url('images/2.jpg');"></div>
-                <div class="slider--item" style="background-image: url('images/3.jpg');"></div>
+            <div class="slider--width">
+                <div class="slider--item"
+                     style="background-image: url('images/1.jpg');">
+                     Viva o Surf
+                </div>
+                <div class="slider--item"
+                     style="background-image: url('images/2.jpg');">
+                     Aproveite a Prancha
+                </div>
+                <div class="slider--item"
+                     style="background-image: url('images/3.jpg');">
+                     Pegue Onda
+                </div>
             </div>
         </div>
     </header>
     <section>
-        <h1>Resto do site</h1>
     </section>
 
     <script src="script.js"></script>
